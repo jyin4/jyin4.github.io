@@ -1,0 +1,48 @@
+h1,
+h3 {
+   font-family: 'Permanent Marker', 'Futura';
+}
+
+h1 {
+    font-size: 36pt;
+    color: #179cc5;
+    text-shadow: 2px 2px #abaead;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-size: 18pt;
+    color: #1b2447;
+}
+
+.textindent {
+    text-indent: 25px;
+}
+
+body {
+    font-family: "Helvetica";
+    font-size: 11pt;
+    font-weight: lighter;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.lineheight {
+    line-height: 50%;
+}
+
+.yellowtext {
+    color: #ebd53e;
+}
+
+.container {
+    width: 800px;
+    border: 3px solid #b0b2b7;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    margin: auto;
+   
+}
