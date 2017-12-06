@@ -1,17 +1,12 @@
-h1,
-h2,
-h3 {
-    margin-right: 8px;
-}
-
 h1 {
-    font-family:"OutrunFuture";
+    font-family:"OutrunFuture"; Avenir; sans-serif;
     color: white;
     text-align: right;
     font-size: 30pt;
     letter-spacing:7.5px;
     line-height: 40pt;
    margin-top:7pt;
+    margin-bottom: 15pt;
   
 }
 
@@ -40,7 +35,7 @@ h3
 @fontface {
     font-family: 'OutrunFuture';
     src:
-        url(OUTRUNFUTURE_TBS/Outrunfuture.otf);
+        url(outrun_future/Outrun%20future.otf);
         format('opentype');
 }
 
