@@ -1,0 +1,320 @@
+body {
+    background-color: black;
+}
+
+.floatright {
+    float: right;
+    width: 50%;
+    background-color: black;
+    height: 100%;
+
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav {
+    margin-left: 50px;
+}
+
+.topnav a {
+    float: left;
+    text-align: center;
+    padding: 14px 20px 16px 12px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 1px;
+}
+
+
+
+.topnav a:hover {
+    color: grey;
+}
+
+.active {
+    border-bottom: 5px solid white;
+}
+
+
+
+.homeheader {
+    float: left;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    position: absolute;
+    top: 40%;
+    left: 65%;
+    letter-spacing: 1px;
+}
+
+.homesubheader {
+    float: left;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    letter-spacing: 1px;
+}
+
+
+.floatleft {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-image: url('images/shibuya_nightlifecropped.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+
+}
+
+.about {
+    border-bottom: 5px solid #ff00ff;
+
+}
+
+
+.aboutheader {
+    float: left;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    position: absolute;
+    top: 30%;
+    left: 65%;
+    letter-spacing: 2px;
+}
+
+.aboutbodytext {
+    float: left;
+    text-align: justify;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-size: 14px;
+    background-color: black;
+    position: absolute;
+    top: 40%;
+    left: 55%;
+    letter-spacing: 1px;
+    margin-left: 0 auto;
+    width: 36em;
+    line-height: 17px;
+    text-align-last: center;
+}
+
+
+.aboutfloatleft {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-image: url('images/Tokyo-Night-Signs_cropped.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+
+}
+
+
+.shibuyacrossing {
+    border-bottom: 5px solid #ffff00;
+
+}
+
+
+.shibuyacrossingheader {
+    float: left;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    position: absolute;
+    top: 10%;
+    left: 58%;
+    letter-spacing: 2px;
+}
+
+.shibuyacrossingvideo {
+    margin-left: 60px;
+    margin-top: 105px;
+}
+
+.shibuyacrossingbodytext {
+    float: left;
+    text-align: justify;
+    justify-content: center;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-size: 14px;
+    background-color: black;
+    position: absolute;
+    top: 70%;
+    left: 55%;
+    letter-spacing: 1px;
+    margin-left: auto;
+    margin-right: 40px;
+    margin-top: 20px;
+    line-height: 17px;
+    margin-bottom: 100px;
+}
+
+.shibuyacrossingfloatleft {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-image: url('images/crossing-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+
+}
+
+
+.snacks {
+    border-bottom: 5px solid #00ffff;
+
+}
+
+.snacksheader {
+    float: left;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    position: absolute;
+    top: 10%;
+    left: 64%;
+    letter-spacing: 2px;
+}
+
+.hichews {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.onigiri {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.kitkats {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+
+.snacksbodytext {
+    float: left;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-size: 14px;
+    background-color: black;
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    letter-spacing: 1px;
+    margin-left: auto;
+    margin-right: 40px;
+    margin-top: 20px;
+    line-height: 17px;
+    margin-bottom: 100px;
+}
+
+.snacksfloatleft {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-image: url('images/snacks_2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+
+}
+
+
+.streetwear {
+    border-bottom: 5px solid #25814a;
+
+}
+
+
+.streetwearheader {
+    float: left;
+    text-align: center;
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-size: 30px;
+    background-color: black;
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    letter-spacing: 2px;
+}
+
+.streetweartext {
+    float: left;
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-size: 14px;
+    background-color: black;
+    position: absolute;
+    top: 20%;
+    left: 55%;
+    letter-spacing: 1px;
+    margin-left: auto;
+    margin-right: 40px;
+    margin-top: 20px;
+    line-height: 17px;
+    margin-bottom: 100px;
+}
+
+.widelegpants {
+    width: 525px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.punk {
+    width: 525px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.colorful {
+    width: 525px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+
+.streetwearfloatleft {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-image: url('images/streetwear_1.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    position: absolute;
+
+}
